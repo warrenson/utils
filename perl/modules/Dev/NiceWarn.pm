@@ -32,7 +32,7 @@ sub nblock {
         my $color = $DEFAULT_COLOUR;
         # Test and re-assign if arg is a valid colour
         if ( Term::ANSIColor::colorvalid($color_arg) ) {
-                 print STDERR "$color_arg is VALID\n";
+                 #print STDERR "$color_arg is VALID\n";
                  $color = $color_arg;
         }
         #print STDERR colored ["$color"], "BEGINNING NWBLOCK\n";
